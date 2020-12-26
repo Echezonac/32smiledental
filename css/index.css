@@ -1,0 +1,410 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* =====================================================personal code=================================================== */
+*{
+   text-decoration: none;
+   user-select: none;
+   color: #0e49b5; 
+   font-family: 'Source Sans Pro', sans-serif;
+   outline: none;
+}
+p{
+	font-size: medium;
+	color:grey;	
+	text-align: center;
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+}
+/* .spinner-grow{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: none;
+	color: #3fc5f0;
+} */
+/*i{
+	font-size:xx-large;
+}*/
+/* ======================================================top_Bar======================================================== */
+.top_Bar{
+   width: 100%;
+
+}
+
+.top_Bar .social_Icon a i{
+    color: gray;
+	font-size: small;
+	text-align: center;
+	
+}
+.top_Bar .social_Icon a i:hover{
+    color: #3fc5f0;
+    font-size: medium;
+}
+#time{
+	background-color: #ff2e63;
+	padding: 3px 20px;
+	width:fit-content;
+	border-radius: 10px;
+	color: white;
+}
+#btnA:hover{
+ border:1px solid blue;
+}
+
+
+/* ===========================================================NavBar=================================================== */
+.header{
+	background-color: #3fc5f0;
+	width: 100%;
+	height: fit-content;
+	position: sticky;
+	top: 0;
+	z-index: 1500;
+}
+
+.logotext{
+	font-size: 40px;
+	color: #e3f6f5;
+	font-weight: bold;
+	font-family: 'Piedra', cursive;
+	text-align: center;
+}
+.logotext span{
+	color: #ff2e63;
+}
+.navbar-nav .nav-item .nav-link{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: small;
+	color: #0e49b5;
+}
+
+
+.header .nav-item a:hover {
+        color: #e3f6f5 !important;
+        border-left: 5px solid #ff2e63;
+  }
+ 
+  /*======================================================homepage============================================*/
+
+  .carousel-caption h1{
+  	text-align: justify;
+  	font-size: 25px;
+  	color:  #0e49b5;	
+  	font-family: 'Source Sans Pro', sans-serif;
+  	padding-bottom:30px;
+  	font-weight: bold;
+  }
+
+  .homepage .carousel img{
+	 height: 500px;
+  }
+
+  .carousel-caption h2{
+  	font-weight:bold;
+  	font-size: 60px;
+  	color:  #0e49b5;
+	font-family: 'Source Sans Pro', sans-serif;
+  	text-align: justify;
+  	padding-bottom:30px;
+  	text-shadow: 2px 2px 2px white;
+  }
+
+  .carousel-caption h3,h2{
+  	font-size: 30px;
+  	color:  #0e49b5;
+  	font-family: 'Source Sans Pro', sans-serif;
+  	text-align: justify;
+	padding: 2px;
+	text-shadow: 2px 2px 2px white
+  }
+
+  .carousel-caption p{
+  	color:#3fc5f0;
+  	font-family: 'Source Sans Pro', sans-serif;
+  	text-align: justify;
+	padding: 2px;
+	font-weight: bold;
+  }
+
+  .carousel-caption #displaybtn{
+  	background-color: #ff2e63;
+  	color: white;
+  	float: left;
+  	font-size: small;
+  	padding: 5px;
+  	font-weight: bold;
+  	border-radius: 5px;
+  	border:none; 
+  }
+  #displaybtn:hover{
+ border:1px solid blue;
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 80px;
+	left: 10px;
+
+}
+
+/* =====================================================bottom_Main====================================================== */
+.row{
+	margin:0 2px;
+}
+.box,.serbox{
+	height: 350px;
+	/* width: 100px; */
+	padding: 20px;
+	transition: transform 0.5s;
+}
+
+
+.box,.serbox:hover{
+	transform: translateY(-40px);
+	z-index: 1000;
+}
+
+.serbox h1{
+	text-align: center;
+	color:blue;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+ }
+
+
+.box h1{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+ }
+.box p{
+   text-align: center;
+   color: white;
+}
+.serbox{
+	background-color:white;
+}
+.serbox p{
+	color:grey;
+}
+.a{
+	background-color: #9ddfd3;
+
+}
+.b{
+	background-color: #28abb9;
+	
+}
+.c{
+	background-color: #51adcf;
+
+}
+.d{
+	background-color: #0e49b5;
+}
+/* =========================================================aboutpage================================================= */
+
+.about h1{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.about p{
+	font-size: medium;
+	color:grey;	
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.about .dot i{
+	font-size: small;
+	color: #0e49b5;	
+	padding-right: 20px;
+}
+@media screen and (max-width: 991px) {
+	.about-img{
+		display: none;
+	}
+
+  }
+  /* ====================================================certificate================================================= */
+  /* .cert .carousel-item{
+	  padding: 80px;
+  } */
+
+  /*====================================================Meet our doctor================================================== */
+  .doctors_pics h1,h1{
+	  font-size: 40px;
+	  font-family: 'Source Sans Pro', sans-serif;
+	  font-weight: bold;
+  }
+  .doctors_pics p{
+	text-align: justify;
+}
+  .social_icon_doc{
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, 50%);
+	  display: none; 
+  }
+
+  .social_icon_doc i{
+	display: none; 
+}
+.staff_box:hover .social_icon_doc i{
+	display: inline;
+	color: #ff2e63;
+	font-size: large;
+}
+
+.caption p{
+	margin-bottom: 50px;
+}
+
+.doc_btn a{
+	color:white;
+	text-decoration: none;
+}
+
+.doc_btn{
+	width: auto;
+	text-align: center;
+	display: block;
+	margin: 20px auto;
+	visibility: hidden;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+.staff_box:hover{
+	border: 1px solid grey;
+}
+
+.staff_box:hover .doc_btn{
+	visibility: visible;
+}
+
+.nav_menu form .btn{
+	margin:10px 1px;
+	/* display: inline-block; */
+}
+
+/*======================================================Testimonails========================================================*/
+.testimonals{
+	background-color:azure;
+}
+
+/* ========================================================footer====================================================== */
+.footer{
+	width: auto;
+	height: fit-content;
+	background-color:#3fc5f0;
+}
+.footer i{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 2px 10px;
+}
+.footer i{
+	font-size: small;
+}
+.footer p{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 20px;
+}
+
+.footer .btn{
+	border:1px solid white;
+	color: white;
+}
+
+.footer .btn:hover{
+	border:none;
+	background-color:#0e49b5;
+	color: white;
+}
+.footer .social_Box{
+	margin: 0 auto;
+	width: fit-content;
+	padding: px;
+}
+
+.footer .social_Box a i{
+	color: #0e49b5;
+}
+
+.footer .social_Box a{
+	margin: 20px auto;
+	width: fit-content;	
+}
+
+.footer .social_Box a{
+	background-color: white;
+	border-radius: 50%;
+	padding: 6px;
+	margin: 0px 15px;
+}
+
+/* .videodiv {
+    text-align: center;
+}
+
+.videodiv .webvideo {
+    display: block;
+    margin: 0 auto;
+} */
